@@ -1,0 +1,101 @@
+.sort_1{
+	position: relative;
+	height:380px;
+	width:380px;
+	border: 1px solid red;
+	display: block;
+}
+
+ .veil{
+	 width: 380px;
+	 height: 380px;
+	  top: 0; 
+	  left: 0; 
+	  position: absolute; 
+	  background: #000; 
+	  opacity:0;
+	  filter(alpha=0);
+	  border: 1px solid red;
+}
+ .veil:hover{ 
+ 	  opacity:0.5;
+ 	  filter(alpha=50)
+ }
+
+.reqv{
+	height:260px;
+	width:240px;
+	border: 1px solid yellow;
+	text-align:center;
+    margin-left: 68px;
+
+}
+.reqv_text{
+	padding-top:150px;
+	font-size: 26px;
+	color: #ffffff;
+}
+.yc p{
+	width:210px;
+	height:40px;
+	margin-top: 0px;
+	text-align:center; 
+    line-height:40px;   
+	color: #ffffff;
+	font-size: 14px;
+}
+ .yc{
+	width:210px;
+	height:40px;
+	margin:290px 0 0 85px;
+	display:none;
+	border:1px solid #ffffff;
+} 
+
+.yc :hover{
+	background: #ffffff;
+	color: #00ffff;	
+}
+/*  */
+/* #yc_2 p{
+	width:210px;
+	height:40px;
+	margin-top: 0px;
+	text-align:center; 
+    line-height:40px;   
+	color: #ffffff;
+	font-size: 14px;
+}
+ #yc_2{
+	width:210px;
+	height:40px;
+	margin:40px 0 0 85px;
+	display:none;
+	border:1px solid #ffffff;
+} 
+#yc_2 :hover{
+	background: #ffffff;
+	color: #00ffff;	
+} */
+
+#sort{
+	width:1320px;
+	height:410px;
+	border: 1px solid black; 
+/* 	margin-left: auto; */
+	
+}
+#sort ul{
+	list-style-type:none;
+	float:left;
+	margin:0 0 0 50px;
+	padding:0px;
+}
+.ul li{
+	 margin:7px;
+	 padding:5px;
+	 float:left;
+	 width:382px;
+	 height:382px;
+	 display: inline;
+}

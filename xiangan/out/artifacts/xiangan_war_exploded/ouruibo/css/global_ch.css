@@ -1,0 +1,545 @@
+@charset "utf-8";
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    padding: 0;
+    margin: 0
+}
+
+a, body, button, html, input, select, textarea {
+    font-family: pingfang, "Microsoft YaHei", 微软雅黑, \9ed1\4f53, \5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu
+}
+
+.clear:after, br, header h1 a {
+    display: block
+}
+
+.getTop, a {
+    cursor: pointer
+}
+
+@font-face {
+    font-family: pingfang;
+    src: url(//www.orvibo.com/guanwang_second/front/fonts/PingFangSC.eot?#iefix?cache-buster) format('embedded-opentype'), url(//www.orvibo.com/guanwang_second/front/fonts/PingFangSC.eot?cache-buster), url(//www.orvibo.com/guanwang_second/front/fonts/PingFangSC.woff?cache-buster) format('woff'), url(//www.orvibo.com/guanwang_second/front/fonts/PingFangSC.ttf?cache-buster) format('truetype'), url(//www.orvibo.com/guanwang_second/front/fonts/PingFangSC.svg#ekcososregular?cache-buster) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+body, html {
+    font-size: 14px
+}
+
+body, button, input, select, textarea {
+    color: #666
+}
+
+address, cite, dfn, em, var {
+    font-style: normal
+}
+
+dl, ol, ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    outline: 0
+}
+
+img {
+    border: 0
+}
+
+button, input, select, textarea {
+    outline: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    font-family: "Microsoft YaHei", 微软雅黑, \9ed1\4f53, \5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu
+}
+
+.ffandie {
+    font-family: pingfang, "Microsoft YaHei", 微软雅黑, \9ed1\4f53, \5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.clear:after {
+    clear: both;
+    content: "\0020";
+    visibility: hidden;
+    height: 0
+}
+
+br {
+    opacity: 0
+}
+
+body {
+    padding-top: 110px
+}
+
+.header, header {
+    background: #fff;
+    width: 100%;
+    height: 110px;
+    font-family: inherit;
+    border-bottom: 1px solid #f1f1f1;
+    position: fixed;
+    z-index: 9999;
+    top: 0
+}
+
+header .content {
+    width: 1200px;
+    margin: 0 auto
+}
+
+header h1 {
+    float: left;
+    width: 175px;
+    height: 110px;
+    background: url("../picture/logo.png") center center no-repeat;
+}
+
+header h1 a {
+    height: 110px;
+}
+
+.head_right .middle_line, header .menu > ul.active > li > a.active, header a {
+    color: #2f2f2f
+}
+
+header .menu > ul.active > li > a {
+    color: #b0b0b0
+}
+
+header .content .menu a.active, header .menu > ul > li > a:hover {
+    color: #00aa91;
+}
+
+.head_login, .head_right, header nav {
+    float: right
+}
+
+header .content .menu > ul {
+    float: right;
+    height: 110px;
+}
+
+header .content .menu > ul > li {
+    float: left;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    line-height: 110px;
+}
+
+header .content .menu > ul > li > a {
+    font-size: 16px;
+    line-height: 60px;
+    height: 60px;
+    vertical-align: middle;
+    margin-left: 50px
+}
+
+header .content .menu > ul > li > ul {
+    display: none;
+    position: absolute;
+    margin-top: 8px;
+    width: 80px;
+    z-index: 9999;
+    top: 77px;
+    left: 22px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 10px 30px rgba(51, 51, 51, .15);
+    -webkit-box-shadow: 0 10px 30px rgba(51, 51, 51, .3);
+    -moz-box-shadow: 0 10px 30px rgba(51, 51, 51, .3);
+}
+
+.erweima .modal-con, .erweima .modal-mask, .scroll_header {
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+header .content .menu > ul > li > ul > li {
+    background: #fff;
+    line-height: 50px;
+    padding: 0 20px;
+    width:80px;
+    border-bottom: 1px solid #ebebeb;
+    text-align: left;
+    cursor: pointer;
+    z-index: 100
+}
+
+.scroll_header, header .content .menu > ul > li > ul > li:last-child {
+    border-bottom: 0
+}
+
+header .content .menu > ul > li > ul > li > a {
+    color: #464646;
+    display: block;
+    width: 80px;
+    height: 100%;
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    transition: -webkit-transform .2s ease;
+    transition: transform .2s ease
+}
+header .content .menu > ul > li > ul > li > a:hover{
+    color: #00aa91;
+}
+header .content .menu > ul > li > ul > li:hover {
+    background: #efefef
+}
+
+.head_right {
+    line-height: 50px;
+    margin-left: 30px
+}
+
+.head_right .middle_line {
+    margin: 0 10px;
+    vertical-align: top
+}
+
+.icon_user {
+    background-image: url(//static.orvibo.com/guanwang_second/front/images/new/icon5.png?cache-buster);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    background-position: -133px 0;
+    float: left;
+    margin-top: 10px;
+    margin-right: 13px
+}
+
+.scroll_header {
+    box-shadow: 0 0 7px 2px #888;
+    z-index: 9999
+}
+
+header .content .menu .first_nav > ul, header .content .menu > ul > li:first-child > ul {
+    width: 110px;
+}
+
+header .content .forth_ul {
+    width: 200px !important
+}
+
+.erweima {
+    display: none
+}
+
+.erweima .modal-con {
+    right: 0;
+    bottom: 0;
+    z-index: 1001;
+    -webkit-overflow-scrolling: touch;
+    outline: 0
+}
+
+.erweima .modal-mask {
+    z-index: 1000;
+    background-color: #000;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    overflow: auto;
+    opacity: .8;
+    filter: "alpha(opacity=80)"
+}
+
+.erweima .modal-container {
+    top: 100px;
+    width: 352px;
+    left: 50%;
+    margin-left: -176px;
+    background-color: #fff;
+    border-radius: 8px;
+    z-index: 9999;
+    position: relative;
+    text-align: center
+}
+
+.erweima .modal-container .qr_close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    right: -10px;
+    background: url(//static.orvibo.com/guanwang_second/front/images/new/dialog_close.png?cache-buster) center no-repeat
+}
+
+.erweima .modal-container h2 {
+    font-size: 24px;
+    color: #2f2f2f;
+    font-weight: 400;
+    padding-top: 22px
+}
+
+.erweima .modal-container p {
+    font-size: 14px;
+    color: grey;
+    line-height: 24px;
+    margin-top: 16px
+}
+
+.erweima .modal-container img {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.foot {
+    width: 100%;
+    background-color: #2c2c2c;
+    padding: 60px 0 0;
+    font-family: inherit
+}
+
+.foot .content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 275px
+}
+
+.foot .link_list {
+    margin-right: 58px;
+    float: left
+}
+
+.foot .first_li {
+    margin-bottom: 15px
+}
+
+.foot ul li {
+    color: #fff;
+    line-height: 28px;
+    font-size: 14px
+}
+
+.foot .copyright, .foot ul li a {
+    color: #7c7c7c;
+    font-size: 14px
+}
+
+.foot_top ul li a:hover {
+    color: #fff
+}
+
+.foot_top {
+    border-bottom: 1px solid rgba(82, 82, 82, .5);
+    padding-bottom: 20px;
+    position: relative
+}
+
+.foot .copyright {
+    font-size: 12px;
+    color: #888;
+    margin-top: 20px;
+    width: 100%
+}
+
+.foot .copyright p {
+    float: left
+}
+
+.foot .gs {
+    float: left;
+    position: relative;
+    height: 20px;
+    line-height: 20px
+}
+
+.foot .gs > a {
+    padding-left: 25px;
+    line-height: 20px;
+    color: #888
+}
+
+.foot .gs > img {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.foot .tel {
+    text-align: right;
+}
+
+.foot .tel p {
+    color: #7c7c7c;
+}
+
+.foot .tel .phone_num {
+    font-size: 24px;
+    color: #fff
+}
+
+.foot .language ul {
+    width: 140px;
+    background: #363636;
+    border-radius: 5px;
+    position: relative
+}
+
+.foot .language ul li {
+    width: 140px;
+    height: 40px;
+    background: #363636
+}
+
+.foot .language li.arrow_d {
+    background: url(//static.orvibo.com/guanwang_second/front/images/new/down_arrow_03.png?cache-buster) 116px center no-repeat;
+    border-radius: 5px
+}
+
+.foot .language ul li a {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    display: block;
+    position: relative;
+    padding-left: 46px;
+    box-sizing: border-box
+}
+
+.foot .language ul li i {
+    position: absolute;
+    top: 9px;
+    left: 16px
+}
+
+.foot .language li.arrow_d:hover {
+    background: url(//static.orvibo.com/guanwang_second/front/images/new/down_arrow_03.png?cache-buster) 116px center no-repeat #252525;
+    border-radius: 5px
+}
+
+.foot .language li#en:hover {
+    background: #252525
+}
+
+.foot #en {
+    position: absolute;
+    left: 0;
+    top: -40px;
+    display: none;
+    border-radius: 5px
+}
+
+.foot .language, .foot .tel {
+    float: right
+}
+
+.foot .online_service {
+    background: #fff;
+    border-radius: 6px;
+    width: 151px;
+    height: 35px;
+    text-align: center;
+    color: #2f7cd3;
+    line-height: 34px;
+    margin-top: 20px;
+    display: block;
+    float: inherit
+}
+
+.flag, .icon_arrow_down {
+    background-image: url(//static.orvibo.com/guanwang_second/front/images/new/icon5.png?cache-buster)
+}
+
+.flag, .foot .erweima, .getTop div, .icon_arrow_down, .online div {
+    background-repeat: no-repeat
+}
+
+.foot .online_service:hover {
+    background-color: #2f7cd3;
+    color: #fff
+}
+
+.icon_arrow_down {
+    height: 6px;
+    width: 10px;
+    background-position: -180px 0
+}
+
+.flag {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px
+}
+
+.us_en {
+    height: 15px;
+    width: 21px;
+    background-position: -220px 0
+}
+
+.china {
+    height: 14px;
+    width: 21px;
+    background-position: -194px 0
+}
+
+.getTop, .getTop div {
+    width: 50px;
+    height: 50px
+}
+
+.getTop {
+    display: none
+}
+
+.getTop div {
+    background-image: url(//static.orvibo.com/guanwang_second/front/images/new/fix_icon2.png?cache-buster)
+}
+
+.getTop:hover {
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.fixed {
+    position: fixed;
+    right: 0;
+    bottom: 158px;
+    z-index: 900
+}
+
+.online {
+    display: block;
+    width: 49px;
+    height: 50px;
+    border-radius: 5.5px
+}
+
+.online div {
+    background-image: url(//static.orvibo.com/guanwang_second/front/images/new/fix_icon1.png?cache-buster);
+    width: 50px;
+    height: 50px
+}
+
+.foot .erweima {
+    position: absolute;
+    width: 125px;
+    height: 140px;
+    top: -100px;
+    left: 478px;
+    display: none;
+    background-position: 0 0;
+    background-image: url(//static.orvibo.com/guanwang_second/front/images/new/qrcode.png?cache-buster);
+}
+
+#newBridge {
+    display: none !important
+}
